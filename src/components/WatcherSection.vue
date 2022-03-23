@@ -50,6 +50,6 @@ export default defineComponent({
   display: block;
   align-items: center;
   padding: 5px;
-  margin: 10px 0;
+  margin: 10px 10px;
 }
 </style>

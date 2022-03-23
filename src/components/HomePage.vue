@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="mx-4">
     <h1
       :style="[styleTitle, { display: ['-webkit-box', '-ms-flexbox', 'flex'] }]"
     >

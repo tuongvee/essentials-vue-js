@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mx-4">
     <h2>Events Section</h2>
     <article class="d-flex align-items-center">
       <h5>Events Arguments</h5>
@@ -34,6 +34,7 @@
       <p class="m-2">Full name: {{ firstName }} {{ lastName }}</p>
     </article>
     <article>
+      <h5>Handling v-model modifiers</h5>
       This input capitalizes everything you enter:
       <my-component v-model.capitalize="myText" />
     </article>
